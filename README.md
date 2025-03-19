@@ -42,16 +42,17 @@
 
    ```bash
    Genera un copia del archivo .env.template y renombrarlo a .env
+   En cada una de las carpetas hay un archivo .env a excepcion de '/front-ms'
    Por razones practicas no es necesario cambiar los valores de las vbles
    ```
 
-4. **Crear las db usando el archivo docker-compose**:
+4. **Crear las db usando el archivo docker-compose en la raiz del proyecto**:
 
    ```bash
    docker-compose up -d
    ```
 
-5. **Ejecutar las migraciones**:
+5. **Ejecutar las migraciones en las carpetas 'auth-ms' y 'task-ms'**:
 
    ```bash
    npx prisma migrate dev
@@ -65,6 +66,11 @@
    ```
 
 7. **Comando para inciar el front (La carpeta front-ms)**:
+   Las rutas en el front son:
+
+   - `http://localhost:5173/login`
+   - `http://localhost:5173/register` (Se me olvido poner un link a esta ruta, perdon)
+   - `http://localhost:5173/dashboard`
 
    ```bash
    npm run dev

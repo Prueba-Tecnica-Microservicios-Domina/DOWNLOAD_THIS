@@ -1,0 +1,12 @@
+[submodule "auth-ms"]
+	path = auth-ms
+	url = https://github.com/Prueba-Tecnica-Microservicios-Domina/Auth-ms.git
+[submodule "client-gateway"]
+	path = client-gateway
+	url = https://github.com/Prueba-Tecnica-Microservicios-Domina/Client-ms.git
+[submodule "task-ms"]
+	path = task-ms
+	url = https://github.com/Prueba-Tecnica-Microservicios-Domina/Task-ms.git
+[submodule "front-ms"]
+	path = front-ms
+	url = https://github.com/Prueba-Tecnica-Microservicios-Domina/Front-ms.git
